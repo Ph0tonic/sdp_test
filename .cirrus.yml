@@ -26,10 +26,10 @@ heck_android_task:
   check_script:
     ./gradlew check connectedCheck
 
-  lint_script:
-    ./gradlew lintDebug
-  always:
-    android-lint_artifacts:
-      path: ./app/build/reports/lint-results-debug.xml
-      type: text/xml
-      format: android-lint
+lint_script:
+  ./gradlew lintDebug
+always:
+  android-lint_artifacts:
+    path: ./app/build/reports/lint-results-debug.xml
+    type: text/xml
+    format: android-lint
