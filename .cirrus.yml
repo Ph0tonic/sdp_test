@@ -1,8 +1,8 @@
 heck_android_task:
   name: Run Android tests
   env:
-    API_LEVEL: 30
-    TARGET: google_apis
+    API_LEVEL: 29
+    TARGET: default
     ARCH: x86
     CC_TEST_REPORTER_ID: ENCRYPTED[ab1fdc0cd63f9492e6e9f4691c7a49b60a22a910cc789c7d9538edbe6f3a554d5fae7e4adeee3b48f1f0987f99f026a4]
   container:
